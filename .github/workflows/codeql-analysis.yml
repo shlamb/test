@@ -22,7 +22,7 @@ jobs:
         java-version: 1.8
 
     - name: Build with Maven
-      run: mvn -B package --file webgoat-container/pom.xml
+      run: mvn -B package --file pom.xml
 
     # If this run was triggered by a pull request event, then checkout
     # the head of the pull request instead of the merge commit.
